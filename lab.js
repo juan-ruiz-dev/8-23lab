@@ -125,14 +125,14 @@ function greeting(obj) {
 
 //Code Here
 
-function totalPopulation(obj) {
-  let { utah } = utah
-  let { california } = california
-  let { texas } = texas
-  let { arizona } = arizona
-  return utah + california + texas + arizona
-}
-console.log(totalPopulation())
+// function totalPopulation(obj) {
+//   let { utah } = utah
+//   let { california } = california
+//   let { texas } = texas
+//   let { arizona } = arizona
+//   return utah + california + texas + arizona
+// }
+// console.log(totalPopulation())
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
 /*
@@ -143,21 +143,19 @@ console.log(totalPopulation())
   Push these new variables to an array and return the array. 
 */
 
-// function ingredients(obj) {
-//   let object = {
-//     carb: '1',
-//     fat: '1',
-//     protein: '1'
-//   }
+function ingredients(obj) {
+  let object = {
+    carb: '1',
+    fat: '1',
+    protein: '1'
+  }
 
-//   let {carb: C} = object
-//   let {fat: F} = object
-//   let {protein: P} = object
-//     let arr = [];
-//  arr.push(C, F, P)
-//   return arr;
-// }
-// console.log(ingredients())
+  let { carb, fat, protein } = object
+  let arr = [];
+  arr.push(carb, fat, protein)
+  return arr;
+}
+console.log(ingredients())
 
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
