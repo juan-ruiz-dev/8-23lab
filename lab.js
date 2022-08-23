@@ -138,13 +138,21 @@ function totalPopulation(obj) {
   Push these new variables to an array and return the array. 
 */
 
-//Code Here
 // function ingredients(obj) {
-//   let arr = [];
-//   let { carb, fat, protein } = obj
-//   arr.push(obj)
+//   let object = {
+//     carb: '1',
+//     fat: '1',
+//     protein: '1'
+//   }
+
+//   let {carb: C} = object
+//   let {fat: F} = object
+//   let {protein: P} = object
+//     let arr = [];
+//  arr.push(C, F, P)
 //   return arr;
 // }
+// console.log(ingredients())
 
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
