@@ -92,7 +92,7 @@ var carDetails = {
 //Code Here
 let { color, make, model, year } = carDetails
 
-
+console.log(color, make, model, year)
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
 /*
@@ -103,7 +103,9 @@ let { color, make, model, year } = carDetails
 
 function greeting(obj) {
   //Code Here
-  let { firstName, lastName, title } = obj
+  let { firstName } = firstName
+  let { lastName } = lastName
+  let { title } = title
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
@@ -124,10 +126,13 @@ function greeting(obj) {
 //Code Here
 
 function totalPopulation(obj) {
-  let { utah, california, texas, arizona } = obj
+  let { utah } = utah
+  let { california } = california
+  let { texas } = texas
+  let { arizona } = arizona
   return utah + california + texas + arizona
 }
-
+console.log(totalPopulation())
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
 /*
